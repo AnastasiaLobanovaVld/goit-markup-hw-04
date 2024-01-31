@@ -119,7 +119,7 @@ button {
 
 .hero-section{
     background-color: var(--NAVY-BLUE, #2E2F42);
-    background-image: url(../images/dark-bg.svg),url(../images/hero-bg.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img-name.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
