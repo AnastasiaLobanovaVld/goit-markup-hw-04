@@ -93,13 +93,9 @@ button {
     transition: color 250ms
 }
 
-.header-link:hover,
-.header-link:focus {
-    color: var(--OCEAN, #404BBF);
-}
-
 .current {
     position: relative;
+    color: var(--OCEAN, #404BBF);
 }
 
 .current::after {
