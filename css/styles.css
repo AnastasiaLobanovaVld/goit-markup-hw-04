@@ -331,7 +331,8 @@ button {
     background-color: var(--IRIS, #4D5AE5);
 }
 
-.social-link:hover {
+.social-link:hover,
+.social-link:focus {
  background-color: #31D0AA;
 }
 
