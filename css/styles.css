@@ -141,6 +141,10 @@ button {
 /*=========HERO=========*/
 
 .hero-section{
+    display: flex;
+    justify-content: center;
+    max-width: 1440px;
+    margin: 0 auto;
     background-color: var(--NAVY-BLUE, #2E2F42);
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg);
     background-position: center;
@@ -150,7 +154,6 @@ button {
 }
 
 .hero-container {
-    max-width: 1440px;
     display: flex;
     flex-direction: column;
     align-items: center;
